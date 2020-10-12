@@ -1,6 +1,6 @@
 body {
     background: coral;
-    font-family:Arial, Helvetica, sans-serif ;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
 }
 
 .assignment {
@@ -9,13 +9,17 @@ body {
     display: flex;
     padding: 10px;
     margin: 10px;
-    background: cornflowerblue;
+    background: #84BACC;
 }
 .assignment img {
     width: 500px;
     padding: 10px;
 }
 h1 {
-    color:white;
+    color:#BEFFEC;
     text-align: center;
+}
+a {
+    text-decoration:none;
+    color:#CC8496;
 }
