@@ -9,11 +9,16 @@ body {
     display: flex;
     padding: 10px;
     margin: 10px;
+    margin-bottom: 30px;
     background: #84BACC;
+    border-radius: 5px;
+    box-shadow: 5px 8px #888888;
 }
 .assignment img {
     width: 500px;
     padding: 10px;
+    margin-right: 20px;
+    border-radius: 5px;
 }
 h1 {
     color:#BEFFEC;
@@ -21,5 +26,8 @@ h1 {
 }
 a {
     text-decoration:none;
-    color:#CC8496;
+    color:white;
+}
+.assignment a:hover {
+    color: #CC8496;
 }
