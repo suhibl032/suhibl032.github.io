@@ -2,11 +2,12 @@ body {
     background: coral;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
 }
-
+.assignments {
+    display:flex;
+    flex-wrap:wrap;
+}
 .assignment {
-
-    
-    display: flex;
+    width:30%;
     padding: 10px;
     margin: 10px;
     margin-bottom: 30px;
@@ -19,6 +20,8 @@ body {
     padding: 10px;
     margin-right: 20px;
     border-radius: 5px;
+    display: block;
+    margin:auto;
 }
 h1 {
     color:#BEFFEC;
